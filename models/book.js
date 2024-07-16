@@ -29,7 +29,7 @@ const bookSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  description: {  // Renamed field for description
+  description: { 
     type: String,
     required: true
   },
