@@ -1,0 +1,10 @@
+
+
+GET http://localhost:3000/books
+
+POST http://localhost:3000/books
+Content-Type: application/json
+{
+    "name": "Diana",
+    "subscribedToChannel": "Web dev"
+}
